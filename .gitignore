@@ -1,0 +1,15 @@
+*
+!.gitignore
+
+# cmus
+!i3/
+!kitty/
+!micro/
+!nautilus/
+!neofetch/
+!picom/
+!polybar/
+!rofi/
+!rofi-themes-collection/
+!VSCodium/Preferences/
+!xborder
