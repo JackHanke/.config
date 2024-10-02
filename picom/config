@@ -1,0 +1,14 @@
+# Picom Config Customizations
+#
+#################################
+fading = true;
+detect-rounded-corners = false;
+no-dock-shadow = true;
+active-opacity=1;
+inactive-opacity=0.65;
+shadow = false;
+inactive-opacity-override = true;
+corner-radius = 30;
+opacity-rule = [
+	"85:class_g *?= 'gnome-terminal'"
+];

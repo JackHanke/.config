@@ -1,0 +1,10 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+//@theme "lb"
+ 
+/* Insert theme modifications after this */@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/home/jack/.local/share/rofi/themes/rounded-purple-dark.rasi"
+@theme "/home/jack/.local/share/rofi/themes/rounded-pink-dark.rasi"

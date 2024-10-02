@@ -1,15 +1,24 @@
-*
+/*
+# !*/
 !.gitignore
+!README.md
+
+# weird workaround for i3 dir
+!i3
 
 # cmus
-!i3/
 !kitty/
-!micro/
-!nautilus/
+!kitty/kitty.conf
+
+!micro
+micro/backups
+micro/buffers
+
+# !nautilus/
 !neofetch/
 !picom/
-!polybar/
+!polybar/config.ini
+!polybar/launch.sh
 !rofi/
 !rofi-themes-collection/
-!VSCodium/Preferences/
-!xborder
+!VSCodium/Preferences
