@@ -1,3 +1,3 @@
-# Dotfiles for Desktop
+## Various Configs for Linux Environments
 
-TODO
+~ Personalization ~
