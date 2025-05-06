@@ -22,3 +22,5 @@ micro/buffers
 !rofi/
 !rofi-themes-collection/
 !VSCodium/Preferences
+
+!.bashrc
