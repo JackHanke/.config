@@ -4,7 +4,7 @@ if [ -z "$PS1" ]; then
 fi
 
 # welcome message
-echo "
+export WELCOME_STR="
 
           ___           ___           ___           ___            
          /\  \         /\  \         /\  \         /\__\          
@@ -20,6 +20,8 @@ echo "
                   
 
 "
+
+echo WELCOME_STR
 
 PS1='\[\e[3m\]\u\[\e[0m\] \[\e[3m\]@\[\e[0m\] \[\e[91;1;3m\]\w\[\e[0m\] \[\e[5m\]>\[\e[0m\] '
 

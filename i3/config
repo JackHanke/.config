@@ -221,6 +221,10 @@ exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/bladerunner.jpg
 
 exec_always --no-startup-id "~/.config/xborder/xborders --config ~/.config/xborder/example_config.json"
 
+# turn off screen suspend
+exec_always --no-startup-id "xset s off -dpms"
+
+
 # remove window title
 new_window pixel 2
 
