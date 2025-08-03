@@ -33,6 +33,8 @@ shopt -s checkwinsize
 # jack's aliases
 alias c='codium'
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 alias ga="git add -A"
 alias gc="git commit -m"
 alias gp="git push"
